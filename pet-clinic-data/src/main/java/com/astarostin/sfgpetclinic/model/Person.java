@@ -1,4 +1,4 @@
-package models;
+package com.astarostin.sfgpetclinic.model;
 
 public class Person {
     private String firstName;

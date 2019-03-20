@@ -1,4 +1,4 @@
-package models;
+package com.astarostin.sfgpetclinic.model;
 
 import java.time.LocalDate;
 

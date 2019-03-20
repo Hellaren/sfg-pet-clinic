@@ -1,4 +1,4 @@
-package models;
+package com.astarostin.sfgpetclinic.model;
 
 public class PetType {
     private String name;
