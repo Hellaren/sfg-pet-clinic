@@ -1,8 +1,8 @@
 package com.astarostin.sfgpetclinic.model;
 
-import lombok.Generated;
+import lombok.Data;
 
-@Generated
+@Data
 public class Person extends BaseEntity {
     private String firstName;
 

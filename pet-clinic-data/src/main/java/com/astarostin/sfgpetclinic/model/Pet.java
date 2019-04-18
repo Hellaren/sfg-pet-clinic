@@ -1,12 +1,14 @@
 package com.astarostin.sfgpetclinic.model;
 
-import lombok.Generated;
+import lombok.Data;
 
 import java.time.LocalDate;
 
-@Generated
+@Data
 public class Pet extends BaseEntity {
     private PetType petType;
+
     private Owner owner;
+
     private LocalDate birthDate;
 }

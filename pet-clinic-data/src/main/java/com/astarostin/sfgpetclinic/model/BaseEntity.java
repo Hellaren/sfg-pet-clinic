@@ -1,10 +1,10 @@
 package com.astarostin.sfgpetclinic.model;
 
-import lombok.Generated;
+import lombok.Data;
 
 import java.io.Serializable;
 
-@Generated
+@Data
 public class BaseEntity implements Serializable {
     private Long id;
 }
