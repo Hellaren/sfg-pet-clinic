@@ -3,12 +3,12 @@ package com.astarostin.sfgpetclinic.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RequestMapping({"/vets"})
+@RequestMapping({"/owners"})
 @Controller
-public class VetsController {
+public class OwnersController {
 
     @RequestMapping({"", "/", "/index"})
-    public String listOfVets(){
-        return "vets/index";
+    public String listOfOwners(){
+        return "owners/index";
     }
 }
