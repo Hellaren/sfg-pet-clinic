@@ -10,12 +10,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class DataLoader implements CommandLineRunner {
     private final VetServiceMap vetService;
-
     private final OwnerServiceMap ownerService;
 
-    public DataLoader() {
-        this.vetService = new VetServiceMap();
-        this.ownerService = new OwnerServiceMap();
+    public DataLoader(VetServiceMap vetService, OwnerServiceMap ownerService) {
+        this.vetService = vetService;
+        this.ownerService = ownerService;
     }
 
     @Override
