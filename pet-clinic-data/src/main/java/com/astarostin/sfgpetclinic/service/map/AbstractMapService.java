@@ -9,6 +9,10 @@ public class AbstractMapService<T, ID> {
     protected Map<ID, T> map = new HashMap<>();
 
     public Set<T> findAll() {
+        for(T v: map.values()){
+            System.out.println(v.toString() + " " + v.hashCode());
+        }
+
         return new HashSet<>(map.values());
     }
 
